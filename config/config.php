@@ -2,7 +2,7 @@
 $config = [
     'dbconfig' => [
         'dbuser' => 'root',
-        'dbpsw' => '4411918471',
+        'dbpsw' => '',
         'dbcharset' => 'utf8',
         'dsn' => "mysql:host=localhost;dbname=kinPHP"
     ]
