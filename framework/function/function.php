@@ -15,7 +15,7 @@ function C($name, $method)
  */
 function M($name)
 {
-    require_once(__DIR__ . '/../../app/Model/' . $name . 'Model.php');
+    require_once(__DIR__ . '/../../app/model/' . $name . 'Model.php');
     eval('$obj=new ' . $name . 'Model();');
     return $obj;
 }
@@ -26,7 +26,7 @@ function M($name)
  */
 function V($name)
 {
-    require_once(__DIR__ . '/../../app/View/' . $name . 'View.php');
+    require_once(__DIR__ . '/../../app/view/' . $name . 'View.php');
     eval('$obj=new ' . $name . 'View();');
     return $obj;
 }
